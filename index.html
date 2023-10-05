@@ -4,51 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Figma Land</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/logo_white.png" alt="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="images/sprite.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
-        </nav>
-        <img src="images/logo_white.png" alt="logo">
-        <ul>
-            <li>
-                <a href="#">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#linkedin"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-    </header>
-    <main>
+        </div>
         <section>
             <h1>The best products start with Figma</h1>
             <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             <button>Try for free</button>
         </section>
+    </header>
+    <main>
         <section>
             <h2>Features</h2>
             <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
@@ -87,7 +92,7 @@
                 <p>Subscribe to our Newsletter</p>
                 <p>Available exclusivery on Figmaland</p>
                 <form>
-                    <input type="text" placeholder="Your Email">
+                    <input type="text" name="email" placeholder="Your Email">
                     <input type="button" value="Subscribe">
                 </form>
             </div>
@@ -204,9 +209,9 @@
                 <div>
                     <h3>Contact us</h3>
                     <form>
-                        <input type="text" placeholder="Your name">
-                        <input type="email" placeholder="Your email">
-                        <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+                        <input type="text" name="name" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Your email">
+                        <textarea cols="30" rows="10" name="message" placeholder="Your message"></textarea>
                         <input type="submit" value="Send">
                     </form>
                 </div>
@@ -222,13 +227,13 @@
                             <svg>
                                 <use xlink:href="images/sprite.svg#phone"></use>
                             </svg>
-                            <p>(843) 555-0130</p>
+                            <a href="tel:8435550130">(843) 555-0130</a>
                         </li>
                         <li>
                             <svg>
                                 <use xlink:href="images/sprite.svg#email"></use>
                             </svg>
-                            <p>willie.jennings@example.com</p>
+                            <a href="mailto:willie.jennings@example.co">willie.jennings@example.com</a>
                         </li>
                     </ul>
                     <img src="images/contacts_map.jpg" alt="map">

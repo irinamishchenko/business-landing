@@ -1,342 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>Figma Land</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <img src="images/logo_white.png" alt="logo">
-            <ul>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="header__container__nav">
+          <ul class="header__container__nav-list nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Home</a>
+            </li>
+            <li class="hnav-list-item">
+              <a class="nav-list-item-link" href="#">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">About</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__container__logo-wrapper">
+          <a href="#"
+            ><img
+              class="header__container__logo-wrapper-img"
+              src="images/logo_white.png"
+              alt="logo"
+          /></a>
         </div>
-        <section>
-            <h1>The best products start with Figma</h1>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <button>Try for free</button>
-        </section>
+        <ul class="header__container__socials">
+          <li class="header__container__socials-item">
+            <a href="#">
+              <svg class="header__container__socials-item-icon">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__container__socials-item">
+            <a href="#">
+              <svg class="header__container__socials-item-icon">
+                <use xlink:href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__container__socials-item">
+            <a href="#">
+              <svg class="header__container__socials-item-icon">
+                <use xlink:href="images/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <section class="header__text">
+        <h1 class="header__text-title">The best products start with Figma</h1>
+        <p class="header__text-description">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <a class="header__text-button try-for-free-button">Try for free</a>
+      </section>
     </header>
     <main>
-        <section>
-            <h2>Features</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <ul>
-                <li>
-                    <img src="images/features_fonts.png" alt="features">
-                    <h3>OpenType features Variable fonts</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-                </li>
-                <li>
-                    <img src="images/features_design.png" alt="features">
-                    <h3>Design with real data</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-                </li>
-                <li>
-                    <img src="images/features_action.png" alt="features">
-                    <h3>Fastest way to take action</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-                </li>
-            </ul>
-            <img src="images/features_video.jpg" alt="video">
-        </section>
-        <section>
+      <section>
+        <h2>Features</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <ul>
+          <li>
+            <img src="images/features_fonts.png" alt="features" />
+            <h3>OpenType features Variable fonts</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li>
+            <img src="images/features_design.png" alt="features" />
+            <h3>Design with real data</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li>
+            <img src="images/features_action.png" alt="features" />
+            <h3>Fastest way to take action</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+        </ul>
+        <img src="images/features_video.jpg" alt="video" />
+      </section>
+      <section>
+        <div>
+          <h2>Fastest way to organize</h2>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <a>Try for free</a>
+        </div>
+        <img src="images/desktop.jpg" alt="desktop" />
+      </section>
+      <section>
+        <img src="images/subscription.png" alt="subscription" />
+        <div>
+          <p>At your fingertips</p>
+          <h2>Lightning fast prototyping</h2>
+          <p>Subscribe to our Newsletter</p>
+          <p>Available exclusivery on Figmaland</p>
+          <form>
+            <input type="text" name="email" placeholder="Your Email" />
+            <input type="button" value="Subscribe" />
+          </form>
+        </div>
+      </section>
+      <section>
+        <h3>Partners</h3>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <ul>
+          <li><img src="images/partners_google.png" alt="google logo" /></li>
+          <li><img src="images/partners_amazon.png" alt="amazon logo" /></li>
+          <li>
+            <img src="images/partners_microsoft.png" alt="microsoft logo" />
+          </li>
+          <li><img src="images/partners_uber.png" alt="uber logo" /></li>
+          <li><img src="images/partners_dropbox.png" alt="dropbox logo" /></li>
+          <li><img src="images/partners_google.png" alt="google logo" /></li>
+          <li><img src="images/partners_uber.png" alt="uber logo" /></li>
+          <li><img src="images/partners_amazon.png" alt="amazon logo" /></li>
+        </ul>
+        <a>Try for free</a>
+      </section>
+      <section>
+        <h2>Testimonials</h2>
+        <div>
+          <img src="images/testimonials_IBM.png" alt="IBM logo" />
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+          <div>
+            <img src="images/testimonials_avatar.jpg" alt="avatar" />
             <div>
-                <h2>Fastest way to organize</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <button>Try for free</button>
+              <h4>Organize across</h4>
+              <p>UI designer</p>
             </div>
-            <img src="images/desktop.jpg" alt="desktop">
-        </section>
-        <section>
-            <img src="images/subscription.png" alt="subscription">
+          </div>
+        </div>
+        <button>More testimonials</button>
+      </section>
+      <section>
+        <h2>Pricing</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <ul>
+          <li>
+            <h3>Free</h3>
+            <p>Organize across all apps by hand</p>
             <div>
-                <p>At your fingertips</p>
-                <h2>Lightning fast prototyping</h2>
-                <p>Subscribe to our Newsletter</p>
-                <p>Available exclusivery on Figmaland</p>
-                <form>
-                    <input type="text" name="email" placeholder="Your Email">
-                    <input type="button" value="Subscribe">
-                </form>
+              <p>0</p>
+              <div>
+                <p>
+                  <svg>
+                    <use xlink:href="images/sprite.svg#dollar"></use>
+                  </svg>
+                </p>
+                <p>per month</p>
+              </div>
             </div>
-        </section>
-        <section>
-            <h3>Partners</h3>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             <ul>
-                <li><img src="images/partners_google.png" alt="google logo"></li>
-                <li><img src="images/partners_amazon.png" alt="amazon logo"></li>
-                <li><img src="images/partners_microsoft.png" alt="microsoft logo"></li>
-                <li><img src="images/partners_uber.png" alt="uber logo"></li>
-                <li><img src="images/partners_dropbox.png" alt="dropbox logo"></li>
-                <li><img src="images/partners_google.png" alt="google logo"></li>
-                <li><img src="images/partners_uber.png" alt="uber logo"></li>
-                <li><img src="images/partners_amazon.png" alt="amazon logo"></li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
             </ul>
-            <button>Try for free</button>
-        </section>
-        <section>
-            <h2>Testimonials</h2>
+            <button>Order now</button>
+          </li>
+          <li>
+            <h3>Standard</h3>
+            <p>Organize across all apps by hand</p>
             <div>
-                <img src="images/testimonials_IBM.png" alt="IBM logo">
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <div>
-                    <img src="images/testimonials_avatar.jpg" alt="avatar">
-                    <div>
-                        <h4>Organize across</h4>
-                        <p>UI designer</p>
-                    </div>
-                </div>
+              <p>10</p>
+              <div>
+                <p>
+                  <svg>
+                    <use xlink:href="images/sprite.svg#dollar"></use>
+                  </svg>
+                </p>
+                <p>per month</p>
+              </div>
             </div>
-            <button>More testimonials</button>
-        </section>
-        <section>
-            <h2>Pricing</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             <ul>
-                <li>
-                    <h3>Free</h3>
-                    <p>Organize across all apps by hand</p>
-                    <div>
-                        <p>0</p>
-                        <div>
-                            <p>
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#dollar"></use>
-                                </svg>
-                            </p>
-                            <p>per month</p>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                    </ul>
-                    <button>Order now</button>
-                </li>
-                <li>
-                    <h3>Standard</h3>
-                    <p>Organize across all apps by hand</p>
-                    <div>
-                        <p>10</p>
-                        <div>
-                            <p>
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#dollar"></use>
-                                </svg>
-                            </p>
-                            <p>per month</p>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                    </ul>
-                    <button>Order now</button>
-                </li>
-                <li>
-                    <h3>Business</h3>
-                    <p>Organize across all apps by hand</p>
-                    <div>
-                        <p>99</p>
-                        <div>
-                            <p>
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#dollar"></use>
-                                </svg>
-                            </p>
-                            <p>per month</p>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                        <li>Pricing feature</li>
-                    </ul>
-                    <button>Order now</button>
-                </li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
             </ul>
-        </section>
-        <section>
+            <button>Order now</button>
+          </li>
+          <li>
+            <h3>Business</h3>
+            <p>Organize across all apps by hand</p>
+            <div>
+              <p>99</p>
+              <div>
+                <p>
+                  <svg>
+                    <use xlink:href="images/sprite.svg#dollar"></use>
+                  </svg>
+                </p>
+                <p>per month</p>
+              </div>
+            </div>
+            <ul>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+              <li>Pricing feature</li>
+            </ul>
+            <button>Order now</button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Contact us</h3>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <div>
+          <div>
             <h3>Contact us</h3>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <div>
-                <div>
-                    <h3>Contact us</h3>
-                    <form>
-                        <input type="text" name="name" placeholder="Your name">
-                        <input type="email" name="email" placeholder="Your email">
-                        <textarea cols="30" rows="10" name="message" placeholder="Your message"></textarea>
-                        <input type="submit" value="Send">
-                    </form>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <svg>
-                                <use xlink:href="images/sprite.svg#location"></use>
-                            </svg>
-                            <p>6386 Spring St Anchorage Georgia 12473 United States</p>
-                        </li>
-                        <li>
-                            <svg>
-                                <use xlink:href="images/sprite.svg#phone"></use>
-                            </svg>
-                            <a href="tel:8435550130">(843) 555-0130</a>
-                        </li>
-                        <li>
-                            <svg>
-                                <use xlink:href="images/sprite.svg#email"></use>
-                            </svg>
-                            <a href="mailto:willie.jennings@example.co">willie.jennings@example.com</a>
-                        </li>
-                    </ul>
-                    <img src="images/contacts_map.jpg" alt="map">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg>
-                                    <use xlink:href="images/sprite.svg#linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            <form>
+              <input type="text" name="name" placeholder="Your name" />
+              <input type="email" name="email" placeholder="Your email" />
+              <textarea
+                cols="30"
+                rows="10"
+                name="message"
+                placeholder="Your message"
+              ></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <svg>
+                  <use xlink:href="images/sprite.svg#location"></use>
+                </svg>
+                <p>6386 Spring St Anchorage Georgia 12473 United States</p>
+              </li>
+              <li>
+                <svg>
+                  <use xlink:href="images/sprite.svg#phone"></use>
+                </svg>
+                <a href="tel:8435550130">(843) 555-0130</a>
+              </li>
+              <li>
+                <svg>
+                  <use xlink:href="images/sprite.svg#email"></use>
+                </svg>
+                <a href="mailto:willie.jennings@example.co"
+                  >willie.jennings@example.com</a
+                >
+              </li>
+            </ul>
+            <img src="images/contacts_map.jpg" alt="map" />
+            <ul>
+              <li>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg>
+                    <use xlink:href="images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div>
-            <section>
-                <h3>Pages</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </section>
-            <section>
-                <h3>Tomothy</h3>
-                <ul>
-                    <li>Eleanor Edwards</li>
-                    <li>Ted Robertson</li>
-                    <li>Annette Russell</li>
-                    <li>Jennie Mckinney</li>
-                    <li>Gloria Richards</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Jane Black</h3>
-                <ul>
-                    <li>Phillip Jones</li>
-                    <li>Eleanor Edwards</li>
-                    <li>Colleen Russel</li>
-                    <li>Marvin Hawkins</li>
-                    <li>Bruce Simmons</li>
-                </ul>
-            </section>
-            <section>
-                <ul>
-                    <li>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#location"></use>
-                        </svg>
-                        <p>7480 Mockingbird Hill</p>
-                    </li>
-                    <li>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#phone"></use>
-                        </svg>
-                        <p>(239) 555-0108</p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <svg>
-                                <use xlink:href="images/sprite.svg#linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </div>
+      <div>
+        <section>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Tomothy</h3>
+          <ul>
+            <li>Eleanor Edwards</li>
+            <li>Ted Robertson</li>
+            <li>Annette Russell</li>
+            <li>Jennie Mckinney</li>
+            <li>Gloria Richards</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Jane Black</h3>
+          <ul>
+            <li>Phillip Jones</li>
+            <li>Eleanor Edwards</li>
+            <li>Colleen Russel</li>
+            <li>Marvin Hawkins</li>
+            <li>Bruce Simmons</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <svg>
+                <use xlink:href="images/sprite.svg#location"></use>
+              </svg>
+              <p>7480 Mockingbird Hill</p>
+            </li>
+            <li>
+              <svg>
+                <use xlink:href="images/sprite.svg#phone"></use>
+              </svg>
+              <p>(239) 555-0108</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">
+                <svg>
+                  <use xlink:href="images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg>
+                  <use xlink:href="images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg>
+                  <use xlink:href="images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

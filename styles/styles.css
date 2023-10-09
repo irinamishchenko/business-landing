@@ -5,7 +5,6 @@
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
-  /* background-size: contain; */
   background-size: cover;
   background-position: center;
   margin-bottom: 200px;
@@ -111,14 +110,14 @@
   cursor: pointer;
 }
 
-.features {
+/* .features {
   width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 100px;
-}
+} */
 
 .features__title {
   font-weight: 400;
@@ -202,13 +201,16 @@
 }
 
 .desktop {
-  width: 1440px;
+  /* width: 1440px;
   height: 472px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 100px; */
+  height: 472px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .desktop__text-container {
@@ -216,6 +218,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 350px;
+  width: 532px;
 }
 
 .desktop__text-container-title {
@@ -257,14 +260,17 @@
 }
 
 .subscription {
-  width: 1440px;
+  /* width: 1440px;
   height: 638px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 100px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 100px; */
+  flex-direction: row;
+  justify-content: space-around;
+  height: 638px;
+  /* gap: 100px; */
 }
 
 .subscription__img {
@@ -344,14 +350,14 @@
   color: #ffffff;
 }
 
-.partners {
+/* .partners {
   width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 100px;
-}
+} */
 
 .partners__title {
   font-size: 48px;
@@ -389,6 +395,7 @@
 }
 
 .partners__list-item-img {
+  width: 70%;
 }
 
 .partners__button {
@@ -408,12 +415,15 @@
 }
 
 .testimonials {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   gap: 70px;
   width: 1440px;
   margin: 0 auto;
+  margin-bottom: 100px; */
+
+  gap: 70px;
 }
 
 .testimonials__title {
@@ -496,15 +506,16 @@
 
 .pricing {
   background-color: #252b42;
-  margin: 100px 0;
 }
 
 .pricing__container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
+  padding: 80px 0; */
+
   padding: 80px 0;
 }
 
@@ -669,13 +680,14 @@
 }
 
 .contacts {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   width: 1440px;
-  margin: 0 auto;
-  margin-bottom: 80px;
+  margin: 0 auto 100px; */
+
+  gap: 40px;
 }
 
 .contacts__title {
@@ -824,7 +836,7 @@
 .footer {
   height: 587px;
   background-color: #252b42;
-  padding-top: 150px;
+  padding-top: 200px;
   box-sizing: border-box;
 }
 

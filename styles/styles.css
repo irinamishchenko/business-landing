@@ -1,18 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-a,
-p,
-input,
-textarea,
-li {
-  font-family: "Open Sans", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
+@import url(global.css);
 
 .header {
   background-image: url(../images/header-banner.png);
@@ -26,9 +12,10 @@ a {
 }
 
 .header__container {
-  width: 1440px;
+  width: 1210px;
   height: 156px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 180px;

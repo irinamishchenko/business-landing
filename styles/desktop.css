@@ -16,14 +16,6 @@
   max-width: 335px;
 }
 
-.desktop__text-container-description {
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 0.2px;
-  color: #374754;
-}
-
 .desktop__text-container-button {
   width: 236px;
   height: 60px;
@@ -31,12 +23,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 35px;
-  background-color: #2091f9;
+  background-color: var(--button-color);
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: var(--accent-text-color);
   cursor: pointer;
 }
 

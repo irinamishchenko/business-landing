@@ -3,13 +3,9 @@
 }
 
 .features__description {
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 0.2px;
   max-width: 530px;
   text-align: center;
   margin-bottom: 80px;
-  color: #374754;
 }
 
 .features__list {
@@ -40,7 +36,7 @@
   line-height: 28px;
   letter-spacing: 0.1px;
   text-align: center;
-  color: #252b42;
+  color: var(--main-text-color);
 }
 
 .features__list-item-text {
@@ -49,7 +45,7 @@
   line-height: 25px;
   letter-spacing: 0.2px;
   text-align: center;
-  color: #374754;
+  color: var(--secondary-text-color);
 }
 
 .features__video-container {

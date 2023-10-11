@@ -20,7 +20,7 @@
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #252b42;
+  color: var(--main-text-color);
   margin-bottom: 20px;
 }
 
@@ -33,15 +33,10 @@
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #252b42;
+  color: var(--main-text-color);
 }
 
 .subscription__text-container-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.2px;
-  color: #374754;
   margin-bottom: 30px;
 }
 
@@ -54,9 +49,9 @@
 .subscription__text-container__form-input {
   width: 273px;
   height: 54px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid var(--input-border-color);
   border-radius: 39px;
-  background-color: #f4f4f4;
+  background-color: var(--input-background-color);
   padding-left: 19px;
   font-weight: 400;
   font-size: 14px;
@@ -69,12 +64,12 @@
   height: 58px;
   border: none;
   border-radius: 35px;
-  background-color: #2091f9;
+  background-color: var(--button-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: var(--accent-text-color);
 }
 
 @media (max-width: 1160px) {

@@ -1,5 +1,5 @@
 .pricing {
-  background-color: #252b42;
+  background-color: var(--main-text-color);
 }
 
 .pricing__container {
@@ -8,18 +8,13 @@
 }
 
 .pricing__title {
-  color: #fff;
+  color: var(--accent-text-color);
   margin-bottom: 40px;
 }
 
 .pricing__description {
   max-width: 532px;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 0.2px;
   text-align: center;
-  color: #fff;
   margin-bottom: 100px;
 }
 
@@ -34,8 +29,8 @@
 .pricing__list-item {
   width: 335px;
   height: 607px;
-  background-color: #fff;
-  border: 1px solid #dedede;
+  background-color: var(--accent-text-color);
+  border: 1px solid var(--pricing-cards-border-color);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -47,7 +42,7 @@
 .pricing__list-item:hover {
   transform: scale(1, 1.07);
   transition-duration: 500ms;
-  background-color: #2091f9;
+  background-color: var(--button-color);
 }
 
 .pricing__list-item-title {
@@ -55,11 +50,11 @@
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #252b42;
+  color: var(--main-text-color);
 }
 
 .pricing__list-item:hover .pricing__list-item-title {
-  color: #fff;
+  color: var(--accent-text-color);
 }
 
 .pricing__list-item-text {
@@ -69,12 +64,12 @@
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.1px;
-  color: #374754;
+  color: var(--secondary-text-color);
   margin-bottom: 25px;
 }
 
 .pricing__list-item:hover .pricing__list-item-text {
-  color: #fff;
+  color: var(--accent-text-color);
 }
 
 .pricing__list-item-price {
@@ -91,11 +86,11 @@
   font-weight: 700;
   line-height: 84px;
   letter-spacing: 0.2px;
-  color: #252b42;
+  color: var(--main-text-color);
 }
 
 .pricing__list-item:hover .pricing__list-item-price-amount {
-  color: #fff;
+  color: var(--accent-text-color);
 }
 
 .pricing__list-item-price-container {
@@ -108,11 +103,11 @@
 .pricing__list-item-price-container-icon {
   width: 13px;
   height: 28px;
-  fill: #252b42;
+  fill: var(--main-text-color);
 }
 
 .pricing__list-item:hover .pricing__list-item-price-container-icon {
-  fill: #fff;
+  fill: var(--accent-text-color);
 }
 
 .pricing__list-item-price-container-period {
@@ -121,11 +116,11 @@
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.1px;
-  color: #374754;
+  color: var(--secondary-text-color);
 }
 
 .pricing__list-item:hover .pricing__list-item-price-container-period {
-  color: #fff;
+  color: var(--accent-text-color);
 }
 
 .pricing__list-item__features {
@@ -143,11 +138,11 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.2px;
-  color: #252b42;
+  color: var(--main-text-color);
 }
 
 .pricing__list-item:hover .pricing__list-item__features-item {
-  color: #fff;
+  color: var(--accent-text-color);
 }
 
 .pricing__list-item-button {
@@ -155,8 +150,8 @@
   height: 56px;
   border: none;
   border-radius: 35px;
-  background-color: #2091f9;
-  color: #fff;
+  background-color: var(--button-color);
+  color: var(--accent-text-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -164,8 +159,8 @@
 }
 
 .pricing__list-item:hover .pricing__list-item-button {
-  background-color: #fff;
-  color: #2091f9;
+  background-color: var(--accent-text-color);
+  color: var(--button-color);
 }
 
 @media (max-width: 1050px) {

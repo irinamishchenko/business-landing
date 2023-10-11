@@ -3,11 +3,6 @@
 }
 
 .partners__description {
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 0.2px;
-  color: #374754;
   margin-bottom: 60px;
   text-align: center;
 }
@@ -23,7 +18,7 @@
 .partners__list-item {
   max-width: 268px;
   height: 165px;
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--partners-cards-border-color);
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -41,12 +36,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 35px;
-  background-color: #2091f9;
+  background-color: var(--button-color);
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: var(--accent-text-color);
   cursor: pointer;
 }
 

@@ -12,9 +12,10 @@
   --secondary-text-color: #374754;
   --accent-text-color: #fff;
   --button-color: #2091f9;
-  --accent-section-color: #252b42;
-  --input--background-color: #f5f5f5;
+  --form-border-color: #dddddd;
+  --input-background-color: #f5f5f5;
   --input-border-color: #e8e8e8;
+  --input-text-color: #18171d;
 }
 
 h1,
@@ -58,7 +59,15 @@ img {
   font-size: 48px;
   line-height: 44px;
   letter-spacing: 0.2px;
-  color: #252b42;
+  color: var(--main-text-color);
+}
+
+.description {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-text-color);
 }
 
 .try-for-free-button {
@@ -68,11 +77,11 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 35px;
-  background-color: #2091f9;
+  background-color: var(--button-color);
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
-  color: #ffffff;
+  color: var(--accent-text-color);
   cursor: pointer;
 }

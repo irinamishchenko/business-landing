@@ -9,17 +9,19 @@
   letter-spacing: 0.2px;
   color: #374754;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .partners__list {
-  width: 1072px;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1072px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-bottom: 50px;
 }
 
 .partners__list-item {
-  width: 268px;
+  max-width: 268px;
   height: 165px;
   border: 1px solid #d8d8d8;
   box-sizing: border-box;
@@ -46,4 +48,22 @@
   letter-spacing: 0.1px;
   color: #ffffff;
   cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .partners__list {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .partners__list-item {
+    width: 268px;
+  }
+}
+
+@media (max-width: 565px) {
+  .partners__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
 }

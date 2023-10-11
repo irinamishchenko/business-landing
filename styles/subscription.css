@@ -5,12 +5,13 @@
 }
 
 .subscription__img {
-  width: 677px;
-  height: 514px;
+  max-width: 677px;
+  width: 100%;
+  height: auto;
 }
 
 .subscription__text-container {
-  width: 500px;
+  max-width: 500px;
   height: 400px;
 }
 
@@ -74,4 +75,27 @@
   line-height: 20px;
   letter-spacing: 0.2px;
   color: #ffffff;
+}
+
+@media (max-width: 1160px) {
+  .subscription {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .subscription__text-container {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .subscription__text-container__form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .subscription__text-container__form-input,
+  .subscription__text-container__form-button {
+    width: auto;
+  }
 }

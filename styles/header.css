@@ -15,20 +15,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  margin-bottom: 180px;
+  margin: 0 auto 180px;
+  padding: 0 15px;
+}
+
+.header__container__burger-menu {
+  display: none;
 }
 
 .header__container__nav {
   margin-right: 50px;
+  max-width: 437px;
+  width: 100%;
 }
 
 .header__container__nav-list {
+  height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 437px;
-  height: 48px;
 }
 
 .nav-list-item {
@@ -43,16 +48,16 @@
 }
 
 .header__container__logo-wrapper {
-  margin-right: 336px;
+  /* margin-right: 336px; */
 }
 
 .header__container__logo-wrapper-img {
-  width: 206px;
-  height: 78px;
+  width: 205px;
 }
 
 .header__container__socials {
-  width: 171px;
+  max-width: 171px;
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -71,7 +76,8 @@
 }
 
 .header__text {
-  width: 826px;
+  max-width: 826px;
+  width: 100%;
   height: 550px;
   display: flex;
   flex-direction: column;
@@ -83,10 +89,10 @@
 
 .header__text-title {
   font-weight: 700;
-  font-size: 74px;
   line-height: 84px;
   letter-spacing: 0.2;
   margin-bottom: 50px;
+  font-size: calc(48px + 26 * (100vw / 1200));
 }
 
 .header__text-description {
@@ -106,4 +112,52 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+@media (max-width: 940px) {
+  .header {
+    position: relative;
+  }
+
+  .header__container {
+    flex-direction: row-reverse;
+  }
+
+  .header__container__burger-menu {
+    display: block;
+    /* display: none; */
+  }
+
+  .header__container__burger-menu-icon {
+    fill: #ffffff;
+    width: 26px;
+    height: 16px;
+  }
+
+  .header__container__nav-list {
+    display: none;
+    /* position: absolute;
+    top: 156px;
+    right: 0;
+    width: 100%;
+    height: calc(100% - 156px);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    padding: 100px 0; */
+  }
+
+  .nav-list-item-link {
+    font-size: 25px;
+  }
+
+  .header__container__socials {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .header__container {
+    margin-bottom: 80px;
+  }
 }

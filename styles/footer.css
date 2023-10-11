@@ -6,12 +6,13 @@
 }
 
 .footer__container {
-  width: 991px;
+  max-width: 991px;
   height: 267px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .footer__container__list {
@@ -90,4 +91,30 @@
   width: 32px;
   height: 32px;
   fill: #fff;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    height: auto;
+    padding: 70px 0;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    height: auto;
+  }
+
+  .footer__container__list {
+    align-items: center;
+  }
+
+  .footer__container__list__menu {
+    align-items: center;
+  }
+
+  .footer__container__contacts {
+    gap: 40px;
+  }
 }

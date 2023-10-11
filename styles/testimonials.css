@@ -10,12 +10,12 @@
 }
 
 .testimonials__container-image {
-  width: 150px;
+  max-width: 150px;
   height: 60px;
 }
 
 .testimonials__container-text {
-  width: 967px;
+  max-width: 967px;
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;

@@ -9,11 +9,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 350px;
-  width: 532px;
+  max-width: 532px;
 }
 
 .desktop__text-container-title {
-  width: 335px;
+  max-width: 335px;
 }
 
 .desktop__text-container-description {
@@ -41,6 +41,20 @@
 }
 
 .desctop__img {
-  width: 661px;
-  height: 350px;
+  max-width: 661px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .desktop {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .desktop__text-container {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+  }
 }

@@ -16,6 +16,7 @@
   max-width: 532px;
   text-align: center;
   margin-bottom: 100px;
+  color: var(--accent-text-color);
 }
 
 .pricing__list {
@@ -36,7 +37,6 @@
   flex-direction: column;
   align-items: center;
   padding: 30px 0;
-  box-sizing: border-box;
 }
 
 .pricing__list-item:hover {

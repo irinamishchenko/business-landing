@@ -8,6 +8,7 @@
 
 :root {
   scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
   --main-text-color: #252b42;
   --secondary-text-color: #374754;
   --accent-text-color: #fff;
@@ -16,18 +17,12 @@
   --input-background-color: #f5f5f5;
   --input-border-color: #e8e8e8;
   --input-text-color: #18171d;
+  --box-shadow-color: #00000012;
+  --partners-cards-border-color: #d8d8d8;
+  --pricing-cards-border-color: #dedede;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-a,
-li,
-input,
-textarea,
-button {
+textarea {
   font-family: "Open Sans", sans-serif;
 }
 

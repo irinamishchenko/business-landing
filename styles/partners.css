@@ -19,7 +19,6 @@
   max-width: 268px;
   height: 165px;
   border: 1px solid var(--partners-cards-border-color);
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -9,7 +9,8 @@
 }
 
 .header__container {
-  width: 1210px;
+  max-width: 1210px;
+  width: 100%;
   height: 156px;
   display: flex;
   justify-content: space-between;

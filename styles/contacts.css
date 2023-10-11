@@ -2,14 +2,6 @@
   gap: 40px;
 }
 
-.contacts__title {
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 44px;
-  letter-spacing: 0.2px;
-  color: #252b42;
-}
-
 .contacts__description {
   width: 532px;
   font-size: 28px;

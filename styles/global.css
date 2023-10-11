@@ -36,5 +36,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 100px;
+  margin: 0 auto 150px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 44px;
+  letter-spacing: 0.2px;
+  color: #252b42;
 }

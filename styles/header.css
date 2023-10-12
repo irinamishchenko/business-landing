@@ -127,7 +127,6 @@
 
   .header__container__burger-menu {
     display: block;
-    /* display: none; */
   }
 
   .header__container__burger-menu-icon {
@@ -136,9 +135,16 @@
     height: 16px;
   }
 
+  .header__container__burger-menu-close {
+    fill: var(--accent-text-color);
+    width: 26px;
+    height: 26px;
+    display: none;
+  }
+
   .header__container__nav-list {
     display: none;
-    /* position: absolute;
+    position: absolute;
     top: 156px;
     right: 0;
     width: 100%;
@@ -146,7 +152,7 @@
     margin: 0;
     background-color: rgba(0, 0, 0, 0.95);
     flex-direction: column;
-    padding: 100px 0; */
+    padding: 100px 0;
   }
 
   .nav-list-item-link {

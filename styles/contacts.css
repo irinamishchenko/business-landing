@@ -63,6 +63,17 @@
   border-radius: 35px;
   background-color: var(--button-color);
   color: var(--accent-text-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.contacts__container__form-button:hover {
+  background-color: var(--accent-text-color);
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
 }
 
 .contacts__container__communication {
@@ -123,6 +134,11 @@
   width: 40px;
   height: 40px;
   fill: var(--button-color);
+}
+
+.contacts__container__communication-socails-item-icon:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms;
 }
 
 @media (max-width: 950px) {

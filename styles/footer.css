@@ -43,8 +43,13 @@
   letter-spacing: 0.2px;
   color: var(--accent-text-color);
 }
+
 .footer__container__list__menu-item-link {
   color: var(--accent-text-color);
+}
+
+.footer__container__list__menu-item-link:hover {
+  color: var(--button-color);
 }
 
 .footer__container__contacts {
@@ -88,6 +93,10 @@
   width: 32px;
   height: 32px;
   fill: var(--accent-text-color);
+}
+
+.footer__container__contacts-socails-item-icon:hover {
+  fill: var(--button-color);
 }
 
 @media (max-width: 700px) {

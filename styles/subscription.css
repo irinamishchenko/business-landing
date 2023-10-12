@@ -70,6 +70,13 @@
   line-height: 20px;
   letter-spacing: 0.2px;
   color: var(--accent-text-color);
+  cursor: pointer;
+}
+
+.subscription__text-container__form-button:hover {
+  background-color: var(--accent-text-color);
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
 }
 
 @media (max-width: 1160px) {

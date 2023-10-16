@@ -1,7 +1,7 @@
 .header {
   background-image: url(../images/header-banner.png);
   height: 1050px;
-  width: 100vw;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

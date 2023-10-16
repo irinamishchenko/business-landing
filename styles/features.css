@@ -59,10 +59,12 @@
 }
 
 .features__video-container::after {
-  content: url(../images/video-button.png);
+  content: "";
+  background-image: url(../images/video-button.png);
   display: block;
   width: 187px;
   height: 187px;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -76,5 +78,10 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
+  }
+
+  .features__video-container::after {
+    width: 100px;
+    height: 100px;
   }
 }

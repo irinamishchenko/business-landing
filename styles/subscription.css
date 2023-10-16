@@ -82,6 +82,7 @@
 @media (max-width: 1160px) {
   .subscription {
     flex-direction: column-reverse;
+    gap: 30px;
     height: auto;
   }
 

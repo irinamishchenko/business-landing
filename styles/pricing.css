@@ -124,7 +124,7 @@
   color: var(--accent-text-color);
 }
 
-.pricing__list-item__features {
+.pricing__features {
   width: 255px;
   height: 240px;
   display: flex;
@@ -134,7 +134,7 @@
   margin-bottom: 30px;
 }
 
-.pricing__list-item__features-item {
+.pricing__features-item {
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -142,7 +142,7 @@
   color: var(--main-text-color);
 }
 
-.pricing__list-item:hover .pricing__list-item__features-item {
+.pricing__list-item:hover .pricing__features-item {
   color: var(--accent-text-color);
 }
 

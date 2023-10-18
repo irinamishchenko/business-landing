@@ -14,7 +14,7 @@
   gap: 10px;
 }
 
-.contacts__container__form {
+.contacts__form {
   max-width: 453px;
   width: 100%;
   height: 669px;
@@ -27,7 +27,7 @@
   justify-content: space-around;
 }
 
-.contacts__container__form-title {
+.contacts__form-title {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -36,8 +36,8 @@
   color: var(--main-text-color);
 }
 
-.contacts__container__form-input,
-.contacts__container__form-message {
+.contacts__form-input,
+.contacts__form-message {
   border: 1px solid var(--input-border-color);
   background-color: var(--input-background-color);
   padding: 23px 20px;
@@ -48,16 +48,16 @@
   color: var(--input-text-color);
 }
 
-.contacts__container__form-input {
+.contacts__form-input {
   height: 54px;
   border-radius: 39px;
 }
 
-.contacts__container__form-message {
+.contacts__form-message {
   height: 193px;
 }
 
-.contacts__container__form-button {
+.contacts__form-button {
   width: 145px;
   height: 56px;
   border: none;
@@ -71,13 +71,13 @@
   cursor: pointer;
 }
 
-.contacts__container__form-button:hover {
+.contacts__form-button:hover {
   background-color: var(--accent-text-color);
   color: var(--button-color);
   border: 2px solid var(--button-color);
 }
 
-.contacts__container__communication {
+.contacts__communication {
   max-width: 725px;
   width: 100%;
   display: flex;
@@ -85,7 +85,7 @@
   justify-content: space-between;
 }
 
-.contacts__container__communication-list {
+.contacts__communication-list {
   max-width: 725px;
   width: 100%;
   height: 108px;
@@ -94,7 +94,7 @@
   align-items: flex-start;
 }
 
-.contacts__container__communication-list-item {
+.contacts__communication-list-item {
   max-width: 200px;
   width: 100%;
   display: flex;
@@ -103,17 +103,17 @@
   gap: 10px;
 }
 
-.contacts__container__communication-list-item:first-of-type {
+.contacts__communication-list-item:first-of-type {
   width: 313px;
 }
 
-.contacts__container__communication-list-item-icon {
+.contacts__communication-list-item-icon {
   width: 31px;
   height: 31px;
   fill: var(--button-color);
 }
 
-.contacts__container__communication-list-item-text {
+.contacts__communication-list-item-text {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -123,14 +123,14 @@
   color: var(--secondary-text-color);
 }
 
-.contacts__container__communication-map {
+.contacts__communication-map {
   max-width: 516px;
   width: 100%;
   height: 323px;
   border: none;
 }
 
-.contacts__container__communication-socails {
+.contacts__communication-socails {
   width: 190px;
   height: 60px;
   display: flex;
@@ -138,13 +138,13 @@
   align-items: center;
 }
 
-.contacts__container__communication-socails-item-icon {
+.contacts__communication-socails-item-icon {
   width: 40px;
   height: 40px;
   fill: var(--button-color);
 }
 
-.contacts__container__communication-socails-item-icon:hover {
+.contacts__communication-socails-item-icon:hover {
   transform: scale(1.1);
   transition-duration: 500ms;
 }
@@ -154,12 +154,12 @@
     flex-direction: column-reverse;
   }
 
-  .contacts__container__form {
+  .contacts__form {
     margin: auto;
     padding: 20px;
   }
 
-  .contacts__container__communication {
+  .contacts__communication {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -168,7 +168,7 @@
     gap: 30px;
   }
 
-  .contacts__container__communication-list {
+  .contacts__communication-list {
     flex-direction: column;
     align-items: flex-start;
     align-self: start;
@@ -177,24 +177,24 @@
     margin-bottom: 20px;
   }
 
-  .contacts__container__communication-list-item {
+  .contacts__communication-list-item {
     flex-direction: row;
     max-width: 500px;
   }
 
-  .contacts__container__communication-list-item:first-of-type {
+  .contacts__communication-list-item:first-of-type {
     width: 100%;
   }
 
-  .contacts__container__communication-list-item-text {
+  .contacts__communication-list-item-text {
     text-align: left;
   }
 
-  .contacts__container__communication-map {
+  .contacts__communication-map {
     display: none;
   }
 
-  .contacts__container__communication-socails {
+  .contacts__communication-socails {
     margin: 0 auto;
   }
 }

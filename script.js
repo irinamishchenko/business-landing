@@ -1,7 +1,9 @@
-let burger = document.querySelector(".header__container__burger-menu");
-let menu = document.querySelector(".header__container__nav-list");
-let menuIcon = document.querySelector(".header__container__burger-menu-icon");
-let closeIcon = document.querySelector(".header__container__burger-menu-close");
+const burger = document.querySelector(".header__container__burger-menu");
+const menu = document.querySelector(".header__container__nav-list");
+const menuIcon = document.querySelector(".header__container__burger-menu-icon");
+const closeIcon = document.querySelector(
+  ".header__container__burger-menu-close"
+);
 
 function showMenu() {
   if (menu.style.display === "flex") {
